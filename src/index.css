@@ -29,6 +29,10 @@ main {
   justify-content: space-evenly;
 }
 
+.image {
+  width: 40%;
+}
+
 .page-view {
   min-height: 40vh;
 }

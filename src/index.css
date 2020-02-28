@@ -98,4 +98,8 @@ h1 {
   .character-list {
     width: 90%;
   }
+
+  .main-img {
+    width: 100%;
+  }
 }

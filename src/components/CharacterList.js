@@ -48,7 +48,7 @@ export default function CharacterList() {
       {data.map(data => {
         return (
           <section className="character-list">
-          <img className = "image" src = {data.image}></img>
+          <img className = "image" src = {data.image} alt="character"></img>
           <h3>{data.name}</h3>
           <h3>Status: {data.status}</h3>
           <h3>Species: {data.species}</h3>

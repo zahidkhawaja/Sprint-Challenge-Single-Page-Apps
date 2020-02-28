@@ -93,3 +93,9 @@ h1 {
   transition: 0.3s;
   color: #f8f8ff;
 }
+
+@media (max-width: 500px) {
+  .character-list {
+    width: 90%;
+  }
+}

@@ -49,7 +49,7 @@ export default function CharacterList() {
         return (
           <section className="character-list">
           <img className = "image" src = {data.image}></img>
-          <h3>Name: {data.name}</h3>
+          <h3>{data.name}</h3>
           <h3>Status: {data.status}</h3>
           <h3>Species: {data.species}</h3>
           </section>

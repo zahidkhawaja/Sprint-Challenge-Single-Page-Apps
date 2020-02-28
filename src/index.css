@@ -4,6 +4,11 @@ body {
   font-family: sans-serif;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 main {
   width: 85vw;
   min-height: 80vh;
@@ -12,6 +17,21 @@ main {
   background: #fff;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: 25px;
+}
+
+.renderedcharacters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .character-list {
@@ -40,12 +60,12 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;

@@ -8,8 +8,8 @@ export default function Header() {
     <header className="ui centered">
       <h1 className="ui center">Rick &amp; Morty Fan Page</h1>
       <nav className = "navigation">
-      <Link to ="/"><h2>Home</h2></Link>
-      <Link to = "/characters"><h2>Characters</h2></Link>
+      <Link to ="/"><h4>Home</h4></Link>
+      <Link to = "/characters"><h4>Characters</h4></Link>
       </nav>
 
       <Switch>

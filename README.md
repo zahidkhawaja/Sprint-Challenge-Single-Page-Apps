@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: It allows you to navigate to different pages/views without sending a request to the server each time. Since the entire app is downloaded from the server upfront, it's simply a matter of choosing which component should be displayed to the user.
 
 ## Project Set Up
 
